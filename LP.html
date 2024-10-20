@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Wh-hub</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #000033; /* より暗い紺色 */
+        color: #fff;
+      }
+      .hero-title {
+        font-weight: 400;
+      }
+      .navbar {
+        background-color: rgba(0, 0, 51, 0.8); /* 暗い紺色の半透明 */
+      }
+      #gallery {
+        background-color: #000022; /* さらに暗い紺色 */
+      }
+      footer {
+        background-color: #000011; /* 最も暗い紺色 */
+      }
+      .btn-outline-light:hover {
+        background-color: #1a1a4d; /* ホバー時の背景色を少し明るく */
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <span class="font-serif text-2xl font-semibold">WH-hub</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#hero">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#feature">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header id="hero" class="py-5 mt-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6" data-aos="fade-right">
+            <h1 class="hero-title text-warning display-4">
+              We'll help your Working Holiday
+            </h1>
+            <p class="lead">
+              私たちはワーキングホリデーに挑戦したい全ての日本人を支援します
+            </p>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left">
+            <img
+              src="./levi-guzman-zdSoe8za6Hs-unsplash.jpg"
+              alt="Hero Image"
+              class="img-fluid rounded"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="feature" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5" data-aos="fade-up">
+          私たちが提供するサービス
+        </h2>
+        <div class="row text-center">
+          <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <i class="fas fa-book fa-3x mb-3"></i>
+            <h3>職探し支援</h3>
+            <p>
+              初めての海外での職探し<br />誰でも簡単にネットで応募することが可能
+            </p>
+          </div>
+          <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <i class="fas fa-comments fa-3x mb-3"></i>
+            <h3>チャットサポート</h3>
+            <p>
+              ワーホリでの困り事は<br />海外経験豊富な社員がチャットでサポート
+            </p>
+          </div>
+          <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+            <i class="fas fa-users fa-3x mb-3"></i>
+            <h3>交流</h3>
+            <p>
+              同じ国で同じ期間にワーホリをしている人同士の<br />交流の場を提供します
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5" data-aos="fade-up">サービス展開国</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4" data-aos="zoom-in">
+            <div class="position-relative">
+              <img
+                src="photoholgic-jK9dT34TfuI-unsplash.jpg"
+                alt="オーストラリアの象徴的な風景"
+                class="img-fluid rounded"
+              />
+              <div class="country-name text-white">オーストラリア</div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="position-relative">
+              <img
+                src="alex-shutin-uhn-U0sSxFQ-unsplash.jpg"
+                alt="カナダの象徴的な風景"
+                class="img-fluid rounded"
+              />
+              <div class="country-name text-white">カナダ</div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="position-relative">
+              <img
+                src="claudio-schwarz-EGzyJk2juPo-unsplash.jpg"
+                alt="ニュージーランドの象徴的な風景"
+                class="img-fluid rounded"
+              />
+              <div class="country-name text-white">アメリカ</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5" data-aos="fade-up">Contact Us</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <form>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Your Name"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Your Email"
+                />
+              </div>
+              <div class="mb-3">
+                <textarea
+                  class="form-control"
+                  rows="5"
+                  placeholder="Your Message"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-outline-light">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-white text-center py-3">
+      <p>&copy; 2024 Document. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true,
+      });
+    </script>
+  </body>
+</html>
